@@ -1,0 +1,48 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Arrays;
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static int searchIndexOfKOccurrence(int[] numbers, int value, int k) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final int[] numbers;
+            final int k;
+            final int value;
+            if (scanner.hasNextInt()) {
+                numbers = Arrays.stream(scanner.nextLine().split("\\s+"))
+                        .mapToInt(Integer::parseInt)
+                        .toArray();
+                value = Integer.parseInt(scanner.nextLine());
+                k = Integer.parseInt(scanner.nextLine());
+            } else {
+                numbers = new int[0];
+                value = 0;
+                k = 1;
+            }
+            System.out.println(searchIndexOfKOccurrence(numbers, value, k));
+        }
+    }
+  learner_created: false
+- name: src/src.plantuml
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/3102
+status: Failed
+feedback:
+  message: "Failed test #3 of 12. Runtime error\n\nThis is a sample test from the\
+    \ problem statement!\n\nTest input:\n50 51 52 51\n51\n3\nCorrect output:\n-1\n\
+    \nYour code output:\n\n\nError:\nException in thread \"main\" java.lang.ArrayIndexOutOfBoundsException:\
+    \ Index 4 out of bounds for length 4\n\tat Main.searchIndexOfKOccurrence(Main.java:11)\n\
+    \tat Main.main(Main.java:36)\n"
+  time: Mon, 19 Oct 2020 06:44:50 UTC
+record: -1

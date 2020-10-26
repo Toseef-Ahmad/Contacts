@@ -1,0 +1,44 @@
+# Project exclude paths
+/.gradle/
+/Contacts/task/build/
+/Contacts/task/out/
+/Contacts/task/out/production/classes/
+/Contacts/task/out/test/classes/
+/Problems/10 days before/out/
+/Problems/10 days before/out/production/classes/
+/Problems/30 years before and after/out/
+/Problems/30 years before and after/out/production/classes/
+/Problems/Adding N minutes/out/
+/Problems/Adding N minutes/out/production/classes/
+/Problems/Builder/out/
+/Problems/Builder/out/production/classes/
+/Problems/Counting 2D shapes/out/
+/Problems/Counting 2D shapes/out/production/classes/
+/Problems/Forex Broker/out/
+/Problems/Forex Broker/out/production/classes/
+/Problems/Geek Builder/out/
+/Problems/Geek Builder/out/production/classes/
+/Problems/Merging date-time instances/out/
+/Problems/Merging date-time instances/out/production/classes/
+/Problems/Remote Controller/out/
+/Problems/Remote Controller/out/production/classes/
+/Problems/Robot Builder/out/
+/Problems/Robot Builder/out/production/classes/
+/Problems/Sort out the classes/out/
+/Problems/Sort out the classes/out/production/classes/
+/Problems/Stock Broker/out/
+/Problems/Stock Broker/out/production/classes/
+/Problems/Subway Sandwich/out/
+/Problems/Subway Sandwich/out/production/classes/
+/Problems/Sum of the areas/out/
+/Problems/Sum of the areas/out/production/classes/
+/Problems/The first and the last day of a month/out/
+/Problems/The first and the last day of a month/out/production/classes/
+/Problems/The index of the K occurrence/out/
+/Problems/The index of the K occurrence/out/production/classes/
+/Problems/The n-th day from the end of a month/out/
+/Problems/The n-th day from the end of a month/out/production/classes/
+/Problems/Undo command/out/
+/Problems/Undo command/out/production/classes/
+/Problems/Who is who/out/
+/Problems/Who is who/out/production/classes/

@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+- name: src/src.plantuml
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2853
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2853">JetBrains
+    Academy</a></html>
+  time: Tue, 20 Oct 2020 12:16:15 UTC
+record: -1
